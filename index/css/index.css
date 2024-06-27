@@ -1,0 +1,132 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.title {
+    text-align: center;
+    color: brown;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  
+  background-color: rgb(15, 15, 15);
+  
+
+}
+p{
+  padding: 5%;
+  color: #fff;
+  text-align: justify;
+}
+
+img {
+  width:42%;
+  height:42%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dropdown-content a:hover 
+{background-color: #755}
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu li {
+  margin: 0px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 100px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+      display: none;
+  }
+  .menu-icon {
+      display: block;
+  }
+  .menu-icon:hover {
+      background-color: #555;
+  }
+  .menu-icon .dropdown-content {
+      position: static;
+      display: none;
+      width: 100%;
+      text-align: center;
+  }
+  .menu-icon:hover .dropdown-content {
+      display: block;
+  }
+}
+
+footer {
+  position: relative;
+  display: inline-flex;
+  bottom: 1%;
+  width: 100%;
+  height: 1%;
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  
+}
+footer ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
